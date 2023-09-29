@@ -1,0 +1,510 @@
+{
+  "trigger": "MANUAL_EXPORT",
+  "fields": [
+    {
+      "name": "id",
+      "value": 6061054
+    },
+    {
+      "name": "title",
+      "value": "[App] [Frequent questions] Back button is shown twice"
+    },
+    {
+      "name": "description",
+      "value": "View your issue at Applause Testing Services - https://platform.applause.com/products/123456/community-issues/1234567890\n"
+    },
+    {
+      "name": "productId",
+      "value": 29622
+    },
+    {
+      "name": "productName",
+      "value": "My App"
+    },
+    {
+      "name": "buildName",
+      "value": "1.2.20 (3) - iOS"
+    },
+    {
+      "name": "testCycleId",
+      "value": 415104
+    },
+    {
+      "name": "testCycleName",
+      "value": "My App - iOS - Functional testing"
+    },
+    {
+      "name": "component",
+      "value": "iOS"
+    },
+    {
+      "name": "status",
+      "value": 1,
+      "options": [
+        {
+          "value": 1,
+          "label": "New"
+        },
+        {
+          "value": 2,
+          "label": "Approved"
+        },
+        {
+          "value": 3,
+          "label": "Rejected"
+        },
+        {
+          "value": 4,
+          "label": "Disputed"
+        },
+        {
+          "value": 8,
+          "label": "Discard"
+        },
+        {
+          "value": 9,
+          "label": "Info Requested"
+        },
+        {
+          "value": 10,
+          "label": "Under Review"
+        },
+        {
+          "value": 11,
+          "label": "Pending Approval"
+        },
+        {
+          "value": 12,
+          "label": "Pending Rejection"
+        }
+      ]
+    },
+    {
+      "name": "severity",
+      "value": 2,
+      "options": [
+        {
+          "value": 1,
+          "label": "Low"
+        },
+        {
+          "value": 2,
+          "label": "Medium"
+        },
+        {
+          "value": 3,
+          "label": "High"
+        },
+        {
+          "value": 4,
+          "label": "Critical"
+        }
+      ]
+    },
+    {
+      "name": "type",
+      "value": 1,
+      "options": [
+        {
+          "value": 1,
+          "label": "Visual"
+        },
+        {
+          "value": 2,
+          "label": "Functional"
+        },
+        {
+          "value": 3,
+          "label": "Technical"
+        },
+        {
+          "value": 4,
+          "label": "Feedback"
+        },
+        {
+          "value": 5,
+          "label": "Test case result"
+        },
+        {
+          "value": 6,
+          "label": "Monitoring task"
+        },
+        {
+          "value": 7,
+          "label": "Corrupted characters"
+        },
+        {
+          "value": 8,
+          "label": "Missing translation"
+        },
+        {
+          "value": 9,
+          "label": "Poor translation"
+        },
+        {
+          "value": 10,
+          "label": "Truncation and overlap"
+        },
+        {
+          "value": 11,
+          "label": "Number format"
+        },
+        {
+          "value": 12,
+          "label": "Other general"
+        },
+        {
+          "value": 13,
+          "label": "Crash"
+        },
+        {
+          "value": 14,
+          "label": "A 1 inj"
+        },
+        {
+          "value": 15,
+          "label": "A 2 auth"
+        },
+        {
+          "value": 16,
+          "label": "A 3 xss"
+        },
+        {
+          "value": 17,
+          "label": "A 4 ref"
+        },
+        {
+          "value": 18,
+          "label": "A 5 conf"
+        },
+        {
+          "value": 19,
+          "label": "A 6 disc"
+        },
+        {
+          "value": 20,
+          "label": "A 7 acl"
+        },
+        {
+          "value": 21,
+          "label": "A 8 csrf"
+        },
+        {
+          "value": 22,
+          "label": "A 9 comp"
+        },
+        {
+          "value": 23,
+          "label": "A 10 redir"
+        },
+        {
+          "value": 24,
+          "label": "D 1 drm"
+        },
+        {
+          "value": 25,
+          "label": "M 1"
+        },
+        {
+          "value": 26,
+          "label": "M 2"
+        },
+        {
+          "value": 27,
+          "label": "M 3"
+        },
+        {
+          "value": 28,
+          "label": "M 4"
+        },
+        {
+          "value": 29,
+          "label": "M 5"
+        },
+        {
+          "value": 30,
+          "label": "M 6"
+        },
+        {
+          "value": 31,
+          "label": "M 7"
+        },
+        {
+          "value": 32,
+          "label": "M 8"
+        },
+        {
+          "value": 33,
+          "label": "M 9"
+        },
+        {
+          "value": 34,
+          "label": "M 10"
+        },
+        {
+          "value": 35,
+          "label": "Automation"
+        },
+        {
+          "value": 36,
+          "label": "Load gui"
+        },
+        {
+          "value": 37,
+          "label": "Load functional"
+        },
+        {
+          "value": 38,
+          "label": "Load technical"
+        },
+        {
+          "value": 39,
+          "label": "Case result"
+        },
+        {
+          "value": 40,
+          "label": "Content"
+        },
+        {
+          "value": 41,
+          "label": "Performance"
+        },
+        {
+          "value": 42,
+          "label": "Accessibility color contrast"
+        },
+        {
+          "value": 43,
+          "label": "Accessibility keyboard navigation"
+        },
+        {
+          "value": 44,
+          "label": "Accessibility screen readers"
+        },
+        {
+          "value": 45,
+          "label": "Accessibility html validator"
+        },
+        {
+          "value": 46,
+          "label": "Accessibility zoom"
+        },
+        {
+          "value": 47,
+          "label": "Accessibility color"
+        },
+        {
+          "value": 48,
+          "label": "Accessibility animation"
+        },
+        {
+          "value": 49,
+          "label": "Accessibility video"
+        },
+        {
+          "value": 50,
+          "label": "Accessibility other a 11 y"
+        },
+        {
+          "value": 51,
+          "label": "Voice visual"
+        },
+        {
+          "value": 52,
+          "label": "Voice functional"
+        },
+        {
+          "value": 53,
+          "label": "Voice technical"
+        },
+        {
+          "value": 54,
+          "label": "Voice content"
+        },
+        {
+          "value": 55,
+          "label": "Voice performance"
+        },
+        {
+          "value": 56,
+          "label": "Voice crash"
+        },
+        {
+          "value": 57,
+          "label": "Payment instruments visual"
+        },
+        {
+          "value": 58,
+          "label": "Payment instruments functional"
+        },
+        {
+          "value": 59,
+          "label": "Payment instruments technical"
+        },
+        {
+          "value": 60,
+          "label": "Payment instruments content"
+        },
+        {
+          "value": 61,
+          "label": "Payment instruments performance"
+        },
+        {
+          "value": 62,
+          "label": "Payment instruments crash"
+        }
+      ]
+    },
+    {
+      "name": "frequency",
+      "value": 1,
+      "options": [
+        {
+          "value": 1,
+          "label": "Every time"
+        },
+        {
+          "value": 2,
+          "label": "Occasionally"
+        },
+        {
+          "value": 3,
+          "label": "Hardly ever"
+        },
+        {
+          "value": 4,
+          "label": "Once"
+        }
+      ]
+    },
+    {
+      "name": "additionalInfo",
+      "value": null
+    },
+    {
+      "name": "actionPerformed",
+      "value": "1. Open the app\n2. On Homepage, tap on a frequent question \n3. Check the top left corner"
+    },
+    {
+      "name": "expectedResult",
+      "value": "There should be only 1 back button"
+    },
+    {
+      "name": "actualResult",
+      "value": "There is two back buttons"
+    },
+    {
+      "name": "createDate",
+      "value": "2023-05-19T17:01:23Z"
+    },
+    {
+      "name": "url",
+      "value": "https://platform.applause.com/products/29622/community-issues/6061054"
+    },
+    {
+      "name": "source",
+      "value": 1,
+      "options": [
+        {
+          "value": 1,
+          "label": "Structured"
+        },
+        {
+          "value": 2,
+          "label": "Exploratory"
+        }
+      ]
+    },
+    {
+      "name": "verification",
+      "value": 1,
+      "options": [
+        {
+          "value": 1,
+          "label": "Not requested"
+        },
+        {
+          "value": 2,
+          "label": "Requested"
+        },
+        {
+          "value": 3,
+          "label": "Started"
+        },
+        {
+          "value": 4,
+          "label": "Fixed"
+        },
+        {
+          "value": 5,
+          "label": "Not fixed"
+        },
+        {
+          "value": 6,
+          "label": "Cannot verify"
+        },
+        {
+          "value": 7,
+          "label": "Closed by testcycle"
+        },
+        {
+          "value": 8,
+          "label": "Match not found"
+        },
+        {
+          "value": 9,
+          "label": "Ready to verify"
+        },
+        {
+          "value": 10,
+          "label": "Pending"
+        }
+      ]
+    },
+    {
+      "name": "environments",
+      "values": [
+        "Mobile Maker:Apple / Mobile Model:iPhone 14 Pro Max / Mobile Operating System Version:iOS 16.2 / Mobile Carrier:O2 / Mobile Operating System:iOS / Mobile Major Operating System Version:iOS 16.x / Mobile Web Browsers:Safari"
+      ]
+    },
+    {
+      "name": "errorCode",
+      "value": null
+    },
+    {
+      "name": "errorMessage",
+      "value": null
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Bug6061054_346137222_266156069133365_6521346966879763158_n.jpg",
+      "type": "image/jpeg",
+      "url": "https://platform.applause.com/services/links/v1/external/6t72a7143c33d63f571d8e59b5f72da793176f0235b40fdd028100a702e90349"
+    }
+  ],
+  "reproductions": [],
+  "environments": [
+    {
+      "environment": {
+        "Mobile Carrier": "O2",
+        "Mobile Web Browsers": "Safari",
+        "Mobile Major Operating System Version": "iOS 16.x",
+        "Mobile Maker": "Apple",
+        "Mobile Operating System": "iOS",
+        "Mobile Operating System Version": "iOS 16.2",
+        "Mobile Model": "iPhone 14 Pro Max"
+      }
+    }
+  ],
+  "customFields": [
+    {
+      "name": "Country",
+      "value": "Germany"
+    },
+    {
+      "name": "Build version",
+      "value": "4.2.20 (3)"
+    }
+  ]
+}

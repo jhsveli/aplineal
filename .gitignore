@@ -1,0 +1,8 @@
+.deploy/terraform/.terraform*
+node_modules/
+build/
+temp-deploy/
+.idea/.venv
+.venv/
+.idea/
+.envrc
